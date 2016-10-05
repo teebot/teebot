@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import "normalize";
+
+$bg: lighten(#eaddc0, 10%);
+$tint: #24286b;
+$text: lighten(#000, 20%);
+$links: lighten($tint, 10%);
+$layout-margin: 1.2em;
+$header-color: $bg;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $tint;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: $text;
+}
+
+a {
+  color: $links;
+  text-decoration: none;
+}
+
+#header, #footer {
+  padding: 0 $layout-margin;
+  color: $header-color;
+  h1 {
+    margin: 0;
+    line-height: 1.8em;
+  }
+}
+
+#wrapper {
+  background: $bg;
+  display: flex;
+
+  #main {
+    flex: 8 0;
+    margin: $layout-margin;
+  }
+
+  aside {
+    flex: 1 1 auto;
+    margin: $layout-margin;
+  }
+}
+
+.title-date {
+  font-size: 0.6em;
+  font-weight: normal;
+}
