@@ -16,10 +16,19 @@ html {
 }
 
 body {
-  background: $tint;
+  background: $bg;
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   color: $text;
+}
+
+.highlight {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+h2 {
+  font-size:3.5rem;
 }
 
 a {
@@ -27,17 +36,22 @@ a {
   text-decoration: none;
 }
 
-#header, #footer {
+#footer {
   padding: 0 $layout-margin;
-  color: $header-color;
+  color: $tint;
+  text-align: right;
   h1 {
     margin: 0;
     line-height: 1.8em;
   }
 }
 
+#wrapper, #footer {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 #wrapper {
-  background: $bg;
   display: flex;
 
   #main {
