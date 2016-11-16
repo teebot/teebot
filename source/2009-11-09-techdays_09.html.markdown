@@ -1,0 +1,27 @@
+---
+title: TechEd 09 Day1. Berlin, Here We Come!
+date: 2009-11-09 12:30 UTC
+tags: .NET, TechEd, TFS, Visual Studio
+---
+
+So after a 10 hours drive from Brussels, Kristof and I arrived safe and well at the Hotel yesterday. This morning we took the S-bahn metro to the ICC conference center.  
+
+I guess it's not easy to fit 7000 attendees arriving all at once through the same doors. We waited about an hour to get our badge and a techEd bag full of goodies and software bits.  
+
+**Helping developers and testers to get along better**  
+
+I'm currently attending the DEV206 session titled "Team System 2010: A lap around the developer and tester experience".  
+
+![](https://1.bp.blogspot.com/_sMzr7iNm7bs/Svf0BqaFV1I/AAAAAAAAAT4/CBuSsAUfCYA/s400/PIC131.jpg)  
+
+To summarize this session shortly with a developer bias: What Microsoft mainly did with this release of TFS is to ease the merge process, help developers and testers get along better (sic!) and they made lab testing way easier.  
+
+**No More No Repro**  
+
+The most remarkable feature is definitely IntelliTrace which enables developers to track the bugs filled by the testers directly into the code. On top of IntelliTrace, developers from the My Bug pane of Visual Studio can now see a video of what the tester did to reach a bug.  
+
+Brian Harry didn't detail everything as there was so much to cover but apparently there is also a way for the developer to record the bug on his VM and for the developer to replay the bug from the initial machine state.  
+
+From my point of view it looks very promising and I already see a few cases where these tools could help in my current project.  
+
+Stay tuned for more updates from TechEd 09 in Berlin!

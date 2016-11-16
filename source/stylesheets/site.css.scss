@@ -25,6 +25,9 @@ body {
 .highlight {
     padding: 12px;
     border-radius: 5px;
+    font-size: 0.9rem;
+    max-width: 800px;
+    overflow: auto;
 }
 
 h2 {
@@ -66,6 +69,7 @@ a {
 }
 
 .title-date {
-  font-size: 0.6em;
+  font-size: 0.3em;
   font-weight: normal;
+  margin-top: 0.5em;
 }

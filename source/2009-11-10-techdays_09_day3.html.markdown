@@ -1,0 +1,45 @@
+---
+title: TechEd 09 Day3. Today is Architecture Day!
+date: 2009-11-10 16:30 UTC
+tags: .NET, TechEd, TFS, Visual Studio
+---
+
+Most sessions Kristof and I will be attending today are part of the Architecture Track.  
+
+**Application Models for Utility Computing**  
+
+Ulrich Homann spoke about how SharePoint's Scalability was made with Scale Units in mind for each tier (Database Tier, Middle Tier, Application Tier, Load-Balancing Tier, Storage Tier).  
+
+He then went on discussing how we can layer an application to enable virtualization in the enterprise world. For example, the data tier of an application could be scaled down to 2 or 3 servers at night while the others are going back to the image library. This frees computing resources that can either sleep to save energy or be used for crawling. [See [Application Patterns for Green IT](http://msdn.microsoft.com/en-us/library/dd393307.aspx)]  
+
+As Ulrich puts it Mainframe developers already did this 20 years ago. I would add that there is fundamental difference: hardware is a lot cheaper now than it was before, [cheaper than hiring programmers](http://www.codinghorror.com/blog/archives/001198.html).  
+
+**The Role of the Software Architect: Caring and Communicating**  
+
+Very interesting talk or should I say open discussion about what exactly is an Architect. Architects should be held more accountable according to Magnus Mårtensson, it's a matter of pride and professionalism. Magnus quoted yoda to make a point about why Architects should not inspire fear to developers because "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering".  
+
+[![](https://3.bp.blogspot.com/_sMzr7iNm7bs/SvrFifnViMI/AAAAAAAAAUY/l17OH8efoyw/s400/yoda2.jpg)](http://3.bp.blogspot.com/_sMzr7iNm7bs/SvrFifnViMI/AAAAAAAAAUY/l17OH8efoyw/s1600-h/yoda2.jpg)  
+
+**Unit Testing Good Practices**  
+
+Roy Osherove is Chief Architect at TypeMock. His presentation was focused on 3 requirements to write good tests: Tests should be trustworthy, maintainable and readable.  
+
+That was definitely the best presentation so far in my opinion. It was technical and straight to the point.  
+
+After developing each of these points, Roy challenged some Microsoft-issued code by looking at their tests (the NerdDinner MVC sample, the Unity project). It was really interesting to see why most of them don't achieve a good readability or are sometimes not relevant enough, especially since I have seen those tests before while learning MVC and found them quite good.  
+
+On the side he often plugged his book "The Art of Unit Testing" and made a reference to Code Katas. Roy also does Test Code Reviews on [his blog](http://weblogs.asp.net/rosherove/archive/2009/10/18/test-review-mef.aspx).  
+
+[![](https://1.bp.blogspot.com/_sMzr7iNm7bs/SvrPCtre6UI/AAAAAAAAAUg/ljn4uwDuM88/s400/katas-illustration.png)](http://1.bp.blogspot.com/_sMzr7iNm7bs/SvrPCtre6UI/AAAAAAAAAUg/ljn4uwDuM88/s1600-h/katas-illustration.png)  
+
+I'll keep a note to talk more about Code Katas on this blog for learning purposes, but for a good explanation check this [Jeff Atwood's post](http://www.codinghorror.com/blog/archives/001138.html) who quotes [Steve Yegge's blog](http://steve-yegge.blogspot.com/).  
+
+Also [this](http://codekata.pragprog.com/2007/01/code_kata_backg.html#more) appears to be the founding post of code katas which I will quote:  
+
+> A kata is an exercise in karate where you repeat a form many, many times, making little improvements in each. The intent behind code kata is similar.
+
+There is an obvious trend in the development world these days and it's using Ninjas as metaphors for developers: Code Katas, [Ninject](http://ninject.org/) the dependency injection library and the [cover of Roy's book](http://www.manning.com/osherove/).  
+
+That's it for today! Stay tuned for Day 4 and Day 5!  
+
+[![](https://2.bp.blogspot.com/_sMzr7iNm7bs/Svr46i1_uMI/AAAAAAAAAUw/sb8kj2-27lQ/s400/KristofUndTeebot.jpg)](http://2.bp.blogspot.com/_sMzr7iNm7bs/Svr46i1_uMI/AAAAAAAAAUw/sb8kj2-27lQ/s1600-h/KristofUndTeebot.jpg)

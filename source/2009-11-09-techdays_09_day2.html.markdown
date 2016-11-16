@@ -1,0 +1,53 @@
+---
+title: TechEd 09 Day2. Deep Dive Into the Serious Stuff
+date: 2009-11-09 16:30 UTC
+tags: .NET, TechEd, TFS, Visual Studio
+---
+
+**UPDATE: MVC Session and the Welcome drink**  
+
+Day 2 has started. The subway was crowded with developers and IT admins. I've never seen that much human computing power at once :)  
+
+Be sure to check my [previous post](http://www.teebot.be/2009/11/teched-09-day1-20-years-ago-berlin-wall.html) as I'm updating it with pictures and videos of the Berlin Wall Fall festivities.  
+
+[![](https://3.bp.blogspot.com/_sMzr7iNm7bs/Svk0nOUb_OI/AAAAAAAAAUI/FsXDEmaDvS0/s400/kristofTeebotSmall.png)](http://3.bp.blogspot.com/_sMzr7iNm7bs/Svk0nOUb_OI/AAAAAAAAAUI/FsXDEmaDvS0/s1600-h/kristofTeebotSmall.png)  
+
+**Parallel Computing for Managed Developers**  
+
+The first session of the morning was rather interesting. According to Steve Teixeira (actually he quotes Intel), 80 cores CPU is something reasonable to foresee sometime in the next 5 years.  
+
+Nowaday, multithreading is hard to develop and is very error prone. Starting from .NET 4.0, the framework will include new libraries including [PLINQ](http://msdn.microsoft.com/en-us/magazine/cc163329.aspx) and the [Task Parallel Library](http://msdn.microsoft.com/en-us/library/dd460717(VS.100).aspx).  
+
+Here's an interview of Steve explaining why parallel computing is a major shift in the programming world:  
+
+<object height="340" width="560"><param name="movie" value="http://www.youtube.com/v/LCO9m8eAv6A&amp;hl=en&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/LCO9m8eAv6A&amp;hl=en&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></object>  
+
+**VS Team System: A Lap Around the Project Management and Architecture Capabilities**  
+
+Here's a few features that I really enjoyed:  
+
+Reporting from Excel is really easier now. As Brian already mentionned yesterday, they scaled TFS down with Basic Wizards and Simpler Reports but they also scaled it up with many more features like Scrum integration or Architecture validation.  
+
+More importantly everything is now tied together and queriable on a TFS project so as an example we can now directly see all requirements who don't have Test Cases yet.  
+
+On the architect side, we were shown that validation is now really easy to set up. Developers are unable to check in some code that violates the rules defined by the architect.  
+
+If you want to know more about the Project Management in TFS 2010, see [Brian's blog](http://blogs.msdn.com/bharry/archive/2009/05/19/tfs-2010-project-management.aspx).  
+
+**Code Walkthrough on Azure**  
+
+That session has a rather self-explanatory title. It was indeed very technical. Our belgian compatriot demoed some code using a [Worker Role and a Web Role on Azure](http://msdn.microsoft.com/en-us/library/dd179341.aspx). All this looks quite impressive. For some reason he used a local machine instead of the real Azure Services, leaving us a little disappointed.  
+
+Speaking of Azure, I found [this nice pricing calculator](http://davidpallmann.blogspot.com/2009/07/azure-roi-calculator.html). Is it me or is Azure just really expensive unless you need dozens of servers?  
+
+**What's New in ASP.NET Model-View-Controller**  
+
+[Stephen Walther](http://stephenwalther.com/blog/default.aspx) first polled the crowded conference room asking who is currently using ASP.NET MVC. To my surprise most of us were.  
+
+So he focused on the new HTML.RenderAction() helper and Areas. Stephen also demoed how validation based on data annotations can be easily bubbled to the client through the Microsoft MVC Ajax scripts.  
+
+**Beer as in Free Beer**  
+
+The welcome drink was a huge success, most people attended it and even stayed later that night. I have no idea why those incentives always work.  
+
+That's it for Day 2! (not that I don't remember what happened after the Welcome drink it's jsut not that relevant for this post).

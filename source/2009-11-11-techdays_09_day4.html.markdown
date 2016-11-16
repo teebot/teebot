@@ -1,0 +1,41 @@
+---
+title: TechEd 09 Day4. Dynamic Morning
+date: 2009-11-11 16:30 UTC
+tags: .NET, TechEd, TFS, Visual Studio
+---
+
+**Developing a Language with the Dynamic Language Runtime**  
+
+[Harry Pierson](http://devhawk.net/) aknowledges that developing your own language is not a very common scenario. This session was a deep dive into the bit crunching stuff and the implementation behind the new DLR library which extends the CLR's cross-language support to dynamic languages. With IronPython and IronRuby gaining in popularity it was interesting to see how Microsoft actually architectured those changes in new libraries, improved the performance of dynamic languages while no major changes had to be made in the CLR.  
+
+For those who want to dive even deeper into the DLR, the code is open sourced on [codeplex](http://dlr.codeplex.com/).  
+
+**Dynamic in Microsoft Visual C# 4.0: The Why's and How's**  
+
+The HOW was covered in details by Harry already. Alex Turner first exposed the implementation choices behind the adventures of C# in the dynamic world. In the end the dynamic keyword is [used as a type](http://msdn.microsoft.com/en-us/library/dd264736(VS.100).aspx) (but it's more than a type).  
+
+So WHY use dynamic at all? In which cases de we actually need some code that will be interpreted at runtime instead of compiling it in the IL?  
+
+1.  Use code from dynamic languages (or being a better citizen in the .NET world)
+
+3.  Talk to dynamic object models such as the HTML DOM or Silverlight
+
+5.  Code more naturally with Interop COM interfaces (think Office Dev)
+
+![](https://2.bp.blogspot.com/_sMzr7iNm7bs/Svwxx0IQ4cI/AAAAAAAAAU4/xLJILQk2Cog/s400/image_3.png)  
+
+**Architecture Discovery and Validation with Visual Studio 2010**  
+
+Peter Provost demonstrated the new tools for Architects available in VS2010 Ultimate. VS 2010 feels more and more like a complete standalone software factory since the inclusion of the UML modeling tool.  
+
+To try to understand existing code, the code Analysis tools can provide a valuable help. For the demo, Peter imported a big solution containing 30 projects and went on exploring it using the Architecture Explorer with class diagrams and the new filters. What impressed me the most was the Sequence Diagram Generation.  
+
+[![](https://1.bp.blogspot.com/_sMzr7iNm7bs/Svw6jmO8h6I/AAAAAAAAAVA/7eosT3nKK0k/s400/image_thumb%5B19%5D.png)](http://1.bp.blogspot.com/_sMzr7iNm7bs/Svw6jmO8h6I/AAAAAAAAAVA/7eosT3nKK0k/s1600-h/image_thumb%5B19%5D.png)  
+
+**Book Shop**  
+
+At the end of the day I stopped by the TechEd book shop. I often ask to architects if they know about some good books with a bit of theory illustrated by stories from the trenches. I think I finally found what I'm looking for: Microsoft .NET Architecting Applications for the Enterprise.  
+
+[![](https://3.bp.blogspot.com/_sMzr7iNm7bs/SvyT7-_NBdI/AAAAAAAAAVI/WqWYKX-bndQ/s400/9780735626096F.gif)](http://3.bp.blogspot.com/_sMzr7iNm7bs/SvyT7-_NBdI/AAAAAAAAAVI/WqWYKX-bndQ/s1600-h/9780735626096F.gif)  
+
+As this guy puts it in a review: _"A .NET developer looking to move into architecture should make this book their first stop on a long journey"_.

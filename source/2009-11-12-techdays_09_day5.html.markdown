@@ -1,0 +1,30 @@
+---
+title: TechEd 09 Day5. Lucky Friday Thirteenth
+date: 2009-11-12 16:30 UTC
+tags: .NET, TechEd, TFS, Visual Studio
+---
+
+Today is the last day of TechEd.  
+
+**A SharePoint Pattern Language**  
+
+Non-Microsoft speaker Jim Wilt first made the assumption that we're feeling like if our brains were about to leak through our ears. Good guess Jim!  
+He is presenting us an offshoot of the work he's doing for Microsoft. He won't be able to tell us everything about it as it is still pure research at this time.  
+
+There is a necessity to document SharePoint solutions that are repeatable, extensible, and reliable. But should we have a SharePoint specific pattern-language?  
+
+Jim thinks so because there are SharePoint specific concepts to take into account:  
+
+First the application level: component, solution site or template levels.  
+And secondly the tools to use: Out-of-Box, SharePoint Designer or Visual Studio.  
+
+The demo pattern was _Collecting anonymous user data securely_. In this example, the pattern sits at the solution site level using out-of-box and SharePoint Designer.  
+
+Jim thanked us for attending this session at 9am on the last day.  
+A repository of SharePoint Patterns would be a great addition (at another level) to the [existing SharePoint Guidance](http://www.codeplex.com/spg).  
+
+**Rest of the Day**  
+
+After that session, I spent some time at the Visual Studio booth. I spoke a little with Marian Luparu, Visual C++ Program Manager who reminded me that Microsoft is basically a C++ factory.  
+
+The last session I'll be attending is about [Pex](http://msdn.microsoft.com/en-us/devlabs/cc950525.aspx) and [Code Contracts](http://research.microsoft.com/en-us/projects/contracts/), which to me are the most interesting additions to .NET 4 and VS2010\. I wonder how the automated test generation tool works.
