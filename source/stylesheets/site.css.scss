@@ -30,13 +30,27 @@ body {
     overflow: auto;
 }
 
+a {
+  color: $links;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 h2 {
   font-size:3.5rem;
 }
 
-a {
+h1, h2 {
   color: $links;
-  text-decoration: none;
+  a {
+    color: $links;
+    &:hover {
+      text-decoration: none;
+      color: $tint;
+    }
+  }
 }
 
 #footer {
