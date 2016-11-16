@@ -20,7 +20,7 @@ Nowaday, multithreading is hard to develop and is very error prone. Starting fro
 
 Here's an interview of Steve explaining why parallel computing is a major shift in the programming world:  
 
-<iframe src="https://channel9.msdn.com/Blogs/Humphrey/Interview-Tech-Ed-2009-Berlin/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://channel9.msdn.com/Blogs/Humphrey/Interview-Tech-Ed-2009-Berlin/player" width="720" height="460" allowFullScreen frameBorder="0"></iframe>
 
 **VS Team System: A Lap Around the Project Management and Architecture Capabilities**  
 
