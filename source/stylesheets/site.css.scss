@@ -79,6 +79,12 @@ h1, h2 {
   aside {
     flex: 1 1 auto;
     margin: $layout-margin;
+
+    .profile-pic {
+      width: 140px;
+      border-radius: 80px;
+      border: 1px solid #313691;
+    }
   }
 }
 
