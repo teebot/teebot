@@ -1,0 +1,9 @@
+---
+title: About this blog
+date: 2016-11-16
+tags:
+---
+
+I briefly had a blog hosted on Blogger from 2009 to 2010 so I thought it'd be fun to import these posts from my C# days and use a markdown based site generator on a github page. Jekyll's default design and structure didn't feel right somehow and I opted instead for [middleman](https://middlemanapp.com) which is also made in Ruby.
+
+7 years have passed and my job has kept changing in the meantime - from C# to nodeJS and React, from IIS on premise to AWS lambdas, from bash deployment scripts to Docker. I found it pretty interesting to read my past self playing with AJAX and jQuery.

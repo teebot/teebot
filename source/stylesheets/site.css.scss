@@ -73,3 +73,15 @@ a {
   font-weight: normal;
   margin-top: 0.5em;
 }
+
+.page-prev { float:left; }
+.page-next { float:right; }
+
+.page-prev, .page-next {
+  background: $tint;
+  padding: 0.3rem;
+}
+
+.page-prev a, .page-next a {
+  color: $bg;
+}
